@@ -55,9 +55,9 @@ Fabriquons une petite radio FM qui clignote et vibre au rythme des stations ✨
 | --- | --- | --- |
 | SDA I2C | `21` | Bus partagé OLED + SI4703 |
 | SCL I2C | `22` | Bus partagé OLED + SI4703 |
-| Reset SI4703 | `25` | Maintenu haut avant init radio |
-| Pot fréquence | `13` | Ajuster `FREQ_POT_PIN` si besoin |
-| Pot volume | `12` | Ajuster `VOL_POT_PIN` si besoin |
+| Reset SI4703 | `14` | Maintenu haut avant init radio |
+| Pot fréquence | `18` | Ajuster `FREQ_POT_PIN` si besoin |
+| Pot volume | `17` | Ajuster `VOL_POT_PIN` si besoin |
 
 Macros disponibles dans `src/main.cpp` :
 
